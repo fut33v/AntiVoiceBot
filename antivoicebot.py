@@ -11,7 +11,7 @@ def voice_handler(update, context):
     context.bot.delete_message(chat_id=update.effective_chat.id, message_id=update.message.message_id)
 
 
-TOKEN = "1098876314:AAGqN-rBZLkO6ZoDnNzOuFMq33_1PtAjyCU"
+TOKEN = ""
 
 updater = Updater(TOKEN, use_context=True)
 
